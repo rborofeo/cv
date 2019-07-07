@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/sneas/cv-project#readme",
   "devDependencies": {
-    "chokidar-cli": "^1.2.1",
+    "chokidar-cli": "^1.2.2",
     "fs-extra": "^7.0.1",
     "gh-pages": "^2.0.1",
     "handlebars": "^4.0.14",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.1",
     "markdown": "^0.5.0",
-    "puppeteer": "^1.9.0",
+    "puppeteer": "^1.18.1",
     "watch": "^1.0.2"
   },
   "dependencies": {
