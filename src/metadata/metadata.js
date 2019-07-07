@@ -1,14 +1,13 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
-  baseUrl: 'https://sneas.github.io/cv-project',
+  name: 'Richard Burk A. Orofeo I',
+  title: 'Software Developer',
+  baseUrl: 'https://rbo13.github.io/rbo13-cv',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
+    'Residence': 'Cebu City, Philippines',
+		'Homepage': `<a href="https://rbo13.keybase.pub">
+									Site
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Email': '<a href="mailto:rborofeo@gmail.com">rborofeo@gmail.com</a>'
   },
   skills: [
     ['Comedy', '++++'],
