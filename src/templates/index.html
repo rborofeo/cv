@@ -14,11 +14,11 @@
             <div class="col-md-6 col-print-6">
                 <h1>{{ name }}<br/>{{ title }}</h1>
                 <p>
-                    <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
+										<span class="font-weight-bold">{{ mobile }}</span>
                 </p>
                 <p>
                     <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
-                    <span class="print">The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                    <span class="print"> Works: <a href="{{ baseUrl }}" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                 </p>
             </div>
             <div class="col-md-6 col-print-6">
@@ -43,8 +43,8 @@
             {{/each}}
         </div>
 
-        <p>
-					A highly focused software developer with experience in a variety of development and engineering positions. Organised, methodical and a keen eye for detail results in solid coding and trustworthy software programs. Understanding client requirements and communicating the progress of projects are core values in achieving long lasting business relationships.
+        <p style="text-align: justify;">
+					A highly focused software developer with experience in a variety of development and engineering positions. Well-versed in technology and writing code to create systems that are reliable and user-friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight their core competencies, and further their success.
         </p>
 
         <h2>Work Experience:</h2>
@@ -52,8 +52,8 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h3>
-									{{ title }} at
-									<em>{{ company }}	</em>
+									{{ title }} 
+									<em style="font-size: 18px;"> at {{ company }}	</em>
 								</h3>
                 <p class="text-muted">{{ written }}</p>
 

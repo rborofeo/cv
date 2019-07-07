@@ -1,11 +1,12 @@
 module.exports = {
   name: 'Richard Burk A. Orofeo I',
   title: 'Software Developer',
-  baseUrl: 'https://rbo13.github.io/rbo13-cv',
+	baseUrl: 'https://github.com/rbo13',
+	mobile: '+63966 411 4873',
   facts: {
     'Residence': 'Cebu City, Philippines',
 		'Homepage': `<a href="https://rbo13.keybase.pub">
-									Site
+									rbo13
                 </a>`,
     'Email': '<a href="mailto:rborofeo@gmail.com">rborofeo@gmail.com</a>'
   },
