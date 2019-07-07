@@ -51,7 +51,10 @@
         {{#each plays}}
         <div class="card mb-4">
             <div class="card-body">
-                <h3>{{ title }}</h3>
+                <h3>
+									{{ title }} at
+									<em>{{ company }}	</em>
+								</h3>
                 <p class="text-muted">{{ written }}</p>
 
                 {{{markdown contents }}}
@@ -65,10 +68,13 @@
         </div>
         {{/each}}
 
-        <h2>Education</h2>
-        <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
+        <h2>Education:</h2>
+				<h4>
+					<strong>Bachelor of Science in Information Technology</strong>
+				</h4>
+        <p>Universion of Cebu - Main Campus [June 2012 - March 2016]</p>
 
-        <h2>Additional experience</h2>
+        <h2>Additional experience:</h2>
 
         {{#each experience}}
             <div class="card mt-4">

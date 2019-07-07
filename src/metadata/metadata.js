@@ -21,44 +21,40 @@ module.exports = {
   ],
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      title: 'Senior Software Engineer',
+			company: 'A-FIS Lab Ph. Inc',
+      written: 'August 2018 - Present',
+      badges: ['Go', 'CI/CD', 'AWS', 'Deployment'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Lead a small team of developers to work with our In-house, and Client Projects. We design and develop scalable backend architecture. Also, the point of contact regarding our technical specifications. Also handles the deployment of our web applications in AWS running on ECS.
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Junior Software Engineer',
+			company: 'A-FIS Lab Ph. Inc',
+      written: 'August 2017 - August 2018',
+      badges: ['Go', 'JavaScript', 'ReactJS'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Applied clean code practices and design patterns to develop readable, maintainable and scalable code for a web application. Improved existing code using SOLID design principles. Worked on creating a reusable internal library for our different projects.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      title: 'Junior Software Developer',
+			company: 'Coderepubliq',
+      written: 'June 2016 - Jan 2017',
+      badges: ['JavaScript', 'NodeJS', 'AngularJS', 'MEAN'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Works as a backend developer. I design and develop RESTful APIs with NodeJS. Assisted mobile and frontend teams in solving different issues.
 `
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'Freelance Developer',
+      skills: ['JavaScript', 'NodeJS'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Works as a remote backend developer using NodeJS. Also, created a tweet bot to aggregate news from different sources. Maintains performance of existing client websites.
 `
     },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
   ]
 };
