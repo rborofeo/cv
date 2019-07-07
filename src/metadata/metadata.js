@@ -10,18 +10,14 @@ module.exports = {
     'Email': '<a href="mailto:rborofeo@gmail.com">rborofeo@gmail.com</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['Go', '++++'],
+    ['JavaScript', '++++'],
+    ['Git', '++++'],
+    ['Docker', '+++'],
+    ['Kubernetes', '+++'],
+    ['AWS', '+++'],
+    ['GCP', '+++'],
+		['CI/CD', '+++'],
   ],
   plays: [
     {
